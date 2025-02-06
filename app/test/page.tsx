@@ -1,10 +1,10 @@
-import Dashboard from '@/components/dashboard';
 import ProtectedPage from '@/components/layout/protected-page';
+import React from 'react';
 
-export default function DashboardPage() {
+export default function Page() {
   return (
     <ProtectedPage>
-      <Dashboard />
+      <div>Page</div>
     </ProtectedPage>
   );
 }
